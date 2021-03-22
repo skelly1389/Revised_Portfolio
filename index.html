@@ -9,14 +9,15 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="./assets/favicon/site.webmanifest">
+  <link rel="stylesheet" href="./assets/css/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Sean Kelly's Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>Sean Kelly</h1>
-        <nav>
+    <header class="row">
+        <h1 class="row-4">Sean Kelly</h1>
+        <nav class="row-8">
             <a href="#work">work</a>
             <a href="https://www.linkedin.com/in/sean-kelly-2b7818bb/" target=_blank>linkedIn</a>
             <a href="./assets/Sean-Kelly.pdf" target=_blank>resume</a>
@@ -25,9 +26,18 @@
     </header>
 
     <figure id="backgroundhead">
-        <img src = "https://cdn.discordapp.com/attachments/806355192898519100/807000493838565416/sean.gif" height="175px" width="140px" alt="hero shot of sean" class="profilepic">
+        <img src = "./assets/himg.jfif" height="250" width="250" alt="hero shot of sean" class="profilepic">
         <h3>fullstack web developer</h3>
     </figure>
+
+    <main id="work" class="row">
+        <h3 class="col-3 border-right">work</h3>
+        <div class="row col-9">
+            <a class="col-12" href="https://nbp77.github.io/Project-1/" target=_blank><figure><div class="caption">Park Finder</div><img src="./assets/screenshots/project1.png" alt="screenshot of park finder map" class="img-fluid"></figure></a>
+            <a class="col-6" href="https://github.com/skelly1389/Work-Day-Scheduler" target=_blank><figure><div class="caption">Park Finder</div><img src="./assets/screenshots/scheduler.png" alt="screenshot of day scheduler" class="img-fluid"></figure></a>
+            <a class="col-6" href="https://github.com/skelly1389/Password_Generator" target=_blank><figure><div class="caption">Park Finder</div><img src="./assets/screenshots/passwordgen.png" alt="screenshot of park finder map" class="img-fluid"></figure></a>
+        </div>
+    </main>
 
     <footer id="contact">
         <h3><pre>Contact 
@@ -39,6 +49,4 @@ Me</pre></h3>
             <a href="https://bandcamp.com/guilty" target=_blank>Bandcamp</a>
             <img src="https://cdn.discordapp.com/attachments/806355192898519100/808116016285876254/Sean_Running_v2.gif" height="70px" width="54px" alt="shovel sean" id="bottomgif">
     </footer>
-
-    <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
