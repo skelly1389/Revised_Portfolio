@@ -16,7 +16,7 @@
 </head>
 <body>
     <header class="row">
-        <h1 class="row-4">Sean Kelly</h1>
+        <h1 class="row-4 ml-1">Sean Kelly</h1>
         <nav class="row-8">
             <a href="#work">work</a>
             <a href="https://www.linkedin.com/in/sean-kelly-2b7818bb/" target=_blank>linkedIn</a>
@@ -25,28 +25,50 @@
         </nav>
     </header>
 
-    <figure id="backgroundhead">
-        <img src = "./assets/himg.jfif" height="250" width="250" alt="hero shot of sean" class="profilepic">
+    <figure id="backgroundhead" class="pl-1 m-1">
+        <img src = "./assets/himg.jfif" height="250" width="250" alt="hero shot of sean" class="profilepic rounded-circle">
         <h3>fullstack web developer</h3>
     </figure>
 
     <main id="work" class="row">
-        <h3 class="col-3 border-right">work</h3>
-        <div class="row col-9">
-            <a class="col-12" href="https://nbp77.github.io/Project-1/" target=_blank><figure><div class="caption">Park Finder</div><img src="./assets/screenshots/project1.png" alt="screenshot of park finder map" class="img-fluid"></figure></a>
-            <a class="col-6" href="https://github.com/skelly1389/Work-Day-Scheduler" target=_blank><figure><div class="caption">Park Finder</div><img src="./assets/screenshots/scheduler.png" alt="screenshot of day scheduler" class="img-fluid"></figure></a>
-            <a class="col-6" href="https://github.com/skelly1389/Password_Generator" target=_blank><figure><div class="caption">Park Finder</div><img src="./assets/screenshots/passwordgen.png" alt="screenshot of park finder map" class="img-fluid"></figure></a>
+        <h3 class="col-2 mx-2 mt-4">work</h3>
+        <div class="row col-md-10 col-sm-12 justify-content-around">
+            <div class="card col-12" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/screenshots/project1.png" alt="screenshot of project 1 park finder">
+                <div class="card-body">
+                  <h5 class="card-title">Park Finder</h5>
+                  <p class="card-text">Make multiple api calls based on user input to find local park and weather information</p>
+                  <a href="https://nbp77.github.io/Project-1/" target=_blank class="btn btn-primary">View the site!</a>
+                </div>
+            </div>
+            <div class="card col-md-6 col-sm-12" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/screenshots/scheduler.png" alt="screenshot of work day schedule app">
+                <div class="card-body">
+                  <h5 class="card-title">Work Day Scheduler</h5>
+                  <p class="card-text">Displays date color coordinates hours left in the workday. Allows user to save tasks to each hour so that they load on refresh</p>
+                  <a href="https://github.com/skelly1389/Work-Day-Scheduler" target=_blank class="btn btn-primary">View the repo!</a>
+                </div>
+            </div>
+            <div class="card col-md-6 col-sm-12" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/screenshots/passwordgen.png" alt="screenshot of password generator app">
+                <div class="card-body">
+                  <h5 class="card-title">Password Generator</h5>
+                  <p class="card-text">Generates a randomized password based on user parameters such as length and character selection</p>
+                  <a href="https://github.com/skelly1389/Password_Generator" target=_blank class="btn btn-primary">View the repo!</a>
+                </div>
+            </div>
         </div>
     </main>
 
-    <footer id="contact">
-        <h3><pre>Contact 
+    <footer id="contact" class="row mx-1">
+        <h3 col-3><pre>Contact 
 Me</pre></h3>
-
+        <div class="row col-9">
             <a href="tel:1-215-622-7838">215.622.7838</a>
             <a href="mailto:invertedrdm@gmail.com">invertedrdm@gmail.com</a>
             <a href="https://github.com/skelly1389/" target=_blank>Github</a>
             <a href="https://bandcamp.com/guilty" target=_blank>Bandcamp</a>
             <img src="https://cdn.discordapp.com/attachments/806355192898519100/808116016285876254/Sean_Running_v2.gif" height="70px" width="54px" alt="shovel sean" id="bottomgif">
+        </div>
     </footer>
 </body>
