@@ -1,3 +1,11 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h3, pre, .card-title {
+    font-family: 'Della Respira', serif;
+} 
+
 body {
     background-color: #ea2c62;
 }
