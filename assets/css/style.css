@@ -53,3 +53,7 @@ div a {
 footer {
     background-color: #ff9a8c;
 }
+
+.card:hover {
+    border: 10px dotted #fad5ad;
+  }
