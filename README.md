@@ -10,8 +10,8 @@ Live site at [https://skelly1389.github.io/Revised_Portfolio/](https://skelly138
 
 ## Usage
 Clickable links to my profiles on github and linkedin as well as links to three of the best homeworks and projects I've completed in the course so far.
-    ```
-    ![page in action](assets/screenshots/screenshot1.png)
+    :
+    [page in action](assets/screenshots/screenshot1.png)
     ```
 ## Credits
 
